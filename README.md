@@ -1,5 +1,8 @@
 # BulletTrain::Themes::Lighter
-Short description and motivation.
+This a variation of bullet train's light theme
+We wanted to extract a variation of the defaults, while doing so we
+came across a tutorial to extract it, but we will still continue this
+path to test it out before continuing.
 
 ## Usage
 How to use my plugin.
@@ -8,7 +11,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "bullet_train-themes-light"
+gem "bullet_train-themes-lighter"
 ```
 
 And then execute:
@@ -18,7 +21,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install bullet_train-themes-light
+$ gem install bullet_train-themes-lighter
 ```
 
 ## Contributing
