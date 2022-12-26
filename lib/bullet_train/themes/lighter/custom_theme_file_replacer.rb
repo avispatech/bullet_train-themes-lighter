@@ -1,6 +1,6 @@
 module BulletTrain
   module Themes
-    module Lighterer
+    module Lighter
       class CustomThemeFileReplacer
         mattr_accessor :repo_path
 

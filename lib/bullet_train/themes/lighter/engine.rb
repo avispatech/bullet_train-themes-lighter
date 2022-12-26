@@ -1,6 +1,6 @@
 module BulletTrain
   module Themes
-    module Lighterer
+    module Lighter
       class Engine < ::Rails::Engine
         initializer "bullet_train.themes.lighter.register" do |app|
           BulletTrain::Themes.themes[:lighter] = BulletTrain::Themes::Lighter::Theme.new

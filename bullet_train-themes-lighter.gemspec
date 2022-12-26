@@ -1,8 +1,8 @@
-require_relative "lib/bullet_train/themes/light/version"
+require_relative "lib/bullet_train/themes/lighter/version"
 
 Gem::Specification.new do |spec|
   spec.name = "bullet_train-themes-lighter"
-  spec.version = BulletTrain::Themes::Lighterer::VERSION
+  spec.version = BulletTrain::Themes::Lighter::VERSION
   spec.authors = ["Andrew Culver"]
   spec.email = ["andrew.culver@gmail.com"]
   spec.homepage = "https://github.com/avispatech/bullet_train-themes-lighter"

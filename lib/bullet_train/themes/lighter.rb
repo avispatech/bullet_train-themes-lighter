@@ -1,12 +1,12 @@
-require "bullet_train/themes/light/version"
-require "bullet_train/themes/light/engine"
+require "bullet_train/themes/lighter/version"
+require "bullet_train/themes/lighter/engine"
 require "bullet_train/themes/tailwind_css"
-require "bullet_train/themes/light/file_replacer"
-require "bullet_train/themes/light/custom_theme_file_replacer"
+require "bullet_train/themes/lighter/file_replacer"
+require "bullet_train/themes/lighter/custom_theme_file_replacer"
 
 module BulletTrain
   module Themes
-    module Lighterer
+    module Lighter
       # TODO Not sure this is the right place for this in the long-term.
       mattr_accessor :color, default: :blue
       mattr_accessor :secondary_color, default: nil
